@@ -3,3 +3,6 @@ node_modules/
 .gemini/
 *.log
 .env
+V1_HASTA_29_06_2026/
+js/BACKUPS/
+.gitignore
