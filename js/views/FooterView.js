@@ -25,6 +25,10 @@ export function initFooter() {
         <small>
           <a href="./cookies.html">Cookie Policy</a>
         </small>
+        <span class="footer-separator">|</span>
+        <small>
+          <a href="https://github.com/juanfalibene/discava-digital" target="_blank">GitHub</a>
+        </small>
       </div>
       <small>© ${currentYear} Discava! @ SEPE 11-23</small>
     </div>
