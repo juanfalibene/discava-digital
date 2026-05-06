@@ -1,0 +1,27 @@
+# Discava! - Your Vinyl Digging Experience
+
+Discava! is a premium web platform dedicated to vinyl records, specifically focusing on soul, funk, and disco music. It integrates with the Discogs API to provide a seamless record digging experience.
+
+## Core Features
+- **Vinyl Search**: Advanced search functionality by artist, title, or label.
+- **Genre Filtering**: Specialized filters for soul, funk, and disco.
+- **Favorites & Playlists**: Users can save their favorite records and create YouTube playlists.
+- **Discogs Integration**: Direct links to view and buy records on Discogs.
+- **Responsive Design**: Premium, dark-themed UI optimized for all devices.
+
+## Technology Stack
+- **Frontend**: Vanilla HTML5, CSS3 (Custom Design System), and JavaScript (ES Modules).
+- **Architecture**: MVC-pattern inspired modular JS (Models, Views, Controllers).
+- **APIs**: Discogs API for record data, YouTube for music playback.
+- **Tracking**: Google Tag Manager and GA4 for event measurement.
+
+## Key Pages
+- [/index.html](https://juanfalibene.com/discava/index.html): Main digging interface.
+- [/about.html](https://juanfalibene.com/discava/about.html): Project information and contact form.
+- [/listen.html](https://juanfalibene.com/discava/listen.html): User's saved favorites and playlist generator.
+- [/single.html](https://juanfalibene.com/discava/single.html): Detailed view for individual records.
+
+## Contact
+- Developed by: Juan Falibene
+- Portfolio: [juanfalibene.com](https://juanfalibene.com)
+- Music: [music.juanfalibene.com](https://music.juanfalibene.com)

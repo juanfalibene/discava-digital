@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frequently Asked Questions about Discava! - Learn more about our mission, how it works, and how to support the project." />
+  <title>FAQs - Discava!</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  <link rel="canonical" href="https://juanfalibene.com/discava/faqs.html" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P69Q8WK2');</script>
+  <!-- End Google Tag Manager -->
+  <script type="module">
+    import { addListenLinkToNavbar } from "./js/views/NavView.js";
+    import { initCookieBanner } from "./js/utils/CookieBanner.js";
+    import { initFooter } from "./js/views/FooterView.js";
+
+    document.addEventListener("DOMContentLoaded", () => {
+      addListenLinkToNavbar();
+      initCookieBanner();
+      initFooter();
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P69Q8WK2" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="header" id="header">
+    <div class="logo">
+      <h1><a href="./index.html">Discava!</a></h1>
+    </div>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li class="nav-item"><a href="./index.html#diggin">Digging</a></li>
+        <li class="nav-item"><a href="./about.html">About</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger-button" id="hamburgerButton">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <div class="about-main-wrapper">
+      <section class="about-box">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-content" style="line-height: 1.6; color: #ccc;">
+          
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">What is Discava! and why was this project born?</h3>
+          <p>Discava! is a personal tribute to the culture of "vinyl digging". It was born out of a passion for rescuing Soul, Funk, and Disco gems, and the desire to create a simple yet premium tool to explore the vast Discogs catalog without distractions.</p>
+
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">Is Discava! a for-profit platform?</h3>
+          <p>No. This is a personal project, ad-free and completely free. I do not monetize searches or the use of the app. My only goal is to share the love for music in physical format.</p>
+
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">How can I support the project if I like it?</h3>
+          <p>The best way to support is by sharing the website with other vinyl lovers. If you really want to go further, you can visit my <a href="https://www.discogs.com/wantlist?user=juanignaciofalibene" target="_blank" style="color: var(--bg-green-color); text-decoration: underline;">Discogs Wantlist</a> and send me a record of my choice; it will be received with a big smile and much gratitude!</p>
+
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">Can I collaborate or propose improvements?</h3>
+          <p>Of course! If you are a developer, designer, or simply a music lover with a good idea, you can write to me through the <a href="./about.html" style="color: var(--bg-green-color); text-decoration: underline;">form on the About page</a>. I am open to collaborations and feedback.</p>
+
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">How does the application work technically?</h3>
+          <p>Discava! connects directly with the Discogs API to obtain real-time release data and with YouTube so you can listen to your discoveries instantly. We do not store your personal data on external servers, only your favorites locally in your browser.</p>
+
+          <h3 style="color: var(--bg-green-color); margin-top: 2rem;">What data do you collect and for what?</h3>
+          <p>We use Google Analytics 4 to anonymously understand which genres or terms are most searched and thus improve the user experience. You have full control over this through our cookie banner.</p>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>

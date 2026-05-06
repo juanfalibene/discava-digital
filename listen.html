@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta httpequiv="Permissions-Policy" content="interest-cohort=()" />
+    <meta name="description"
+        content="Discava! - Your Vinyl Digging Experience: A platform dedicated to celebrating the timeless allure of vinyl records, soul, funk, and disco music. Join us on this musical journey!">
+    <meta name="keywords"
+        content="Discava!, vinyl records, vinyl digging, soul music, funk music, disco music, crate digging, vinyl adventure">
+    <meta name="author" content="Juan Falibene">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P69Q8WK2');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Discava! - Your Vinyl Digging Experience">
+    <meta property="og:description"
+        content="A platform dedicated to celebrating the timeless allure of vinyl records, soul, funk, and disco music. Join us on this musical journey!">
+    <meta property="og:image" content="http://dev.juanfalibene.com/discava/img/discava_shareable_img.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Discava! - Your Vinyl Digging Experience">
+    <meta property="twitter:description"
+        content="A platform dedicated to celebrating the timeless allure of vinyl records, soul, funk, and disco music. Join us on this musical journey!">
+    <meta property="twitter:image" content="http://dev.juanfalibene.com/discava/img/discava_shareable_img.jpg">
+    <title>My Favorites - Discava! Vinyl Experience</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="canonical" href="https://juanfalibene.com/discava/listen.html" />
+    <!-- Punto de entrada de la aplicación en modo módulo -->
+    <script type="module" src="js/listen_main.js"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P69Q8WK2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header" id="header">
+        <div class="logo">
+            <h1><a href="./index.html">Discava!</a></h1>
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li class="nav-item"><a href="./index.html#diggin">Digging</a></li>
+                <!--<li class="nav-item"><a href="#discover">Discover</a></li>-->
+                <li class="nav-item"><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger-button" id="hamburgerButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main>
+        <section class="listen flex-container">
+            <div class="listen-playlist">
+                <ol id="favoritesList">
+                    <!-- La lista de favoritos se generará aquí dinámicamente -->
+                </ol>
+            </div>
+            <div class="listen-video">
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
