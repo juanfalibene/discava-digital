@@ -1,13 +1,13 @@
 # 📀 Discava! — Your Vinyl Digging Experience
 
-![Discava Banner](img/discava_shareable_img.jpg)
+![Discava Banner](img/discava_banner_v2.jpg)
 
 
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-Modern-blue?style=flat-square&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![API](https://img.shields.io/badge/API-Discogs-orange?style=flat-square&logo=discogs)](https://www.discogs.com/developers)
 
-**Discava!** is a premium web platform designed for vinyl collectors and music enthusiasts specializing in Soul, Funk, and Disco. It replicates the "crate digging" experience digitally, allowing users to discover rare gems, preview tracks, and curate their own collection.
+**Discava!** is a free web platform designed for vinyl collectors and music enthusiasts specializing in Soul, Funk, and Disco. It replicates the "crate digging" experience digitally, allowing users to discover rare gems, preview tracks, and curate their own collection.
 
 ---
 
