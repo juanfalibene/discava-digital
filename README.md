@@ -32,6 +32,7 @@ As a Front End developer, I focused on building a scalable and maintainable code
 
 ## 📂 Project Structure
 
+```bash
 ├── css/            # Design system and modular styles
 ├── js/
 │   ├── controllers/# Business logic and event handling
@@ -42,6 +43,7 @@ As a Front End developer, I focused on building a scalable and maintainable code
 ├── img/            # Optimized assets
 ├── index.html      # Main landing page (SEO Optimized)
 └── single.html     # Detailed release view
+```
 
 ## 🚀 Getting Started
 
