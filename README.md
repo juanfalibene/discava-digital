@@ -1,5 +1,8 @@
 # 📀 Discava! — Your Vinyl Digging Experience
 
+![Discava Banner](img/discava_shareable_img.jpg)
+
+
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-Modern-blue?style=flat-square&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![API](https://img.shields.io/badge/API-Discogs-orange?style=flat-square&logo=discogs)](https://www.discogs.com/developers)
