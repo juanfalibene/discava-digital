@@ -1945,25 +1945,8 @@ footer small a.wantlist-link:hover {
   }
 
   /* footer */
-  footer {
-    flex-direction: column-reverse;
-    height: auto;
-    gap: 0.25em;
-    padding: var(--fs-sm) 0.75em;
-  }
-
   footer .contact-text {
     font-size: var(--fs-sl);
-  }
-
-  .footer-links {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-  }
-
-  .footer-separator {
-    display: none;
   }
 
   .navbar {
@@ -2696,5 +2679,24 @@ footer a:hover {
   .cookie-actions {
     width: 100%;
     justify-content: center;
+  }
+
+  /* footer responsive */
+  footer {
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 0.25em;
+    padding: var(--fs-sm) 0.75em;
+  }
+
+  .footer-links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    align-items: center !important;
+  }
+
+  .footer-separator {
+    display: none;
   }
 }
