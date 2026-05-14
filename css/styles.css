@@ -1956,6 +1956,16 @@ footer small a.wantlist-link:hover {
     font-size: var(--fs-sl);
   }
 
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .footer-separator {
+    display: none;
+  }
+
   .navbar {
     display: none;
     flex-grow: 1;

@@ -8,13 +8,11 @@ export function initFooter() {
 
   if (!footerContainer) return;
 
-  const currentYear = new Date().getFullYear();
-
   footerContainer.innerHTML = `
     <div class="footer-content">
       
       <div class="footer-links">
-        <small>Send me a vinyl from my
+        <small>Check out my
           <a href="https://www.discogs.com/wantlist?user=juanignaciofalibene" target="_blank" class="wantlist-link">Discogs Wantlist</a>
         </small>
         <span class="footer-separator">|</span>
@@ -30,7 +28,7 @@ export function initFooter() {
           <a href="https://github.com/juanfalibene/discava-digital" target="_blank">GitHub</a>
         </small>
       </div>
-      <small>© ${currentYear} Discava! @ SEPE 11-23</small>
+      <small>© 2023 Discava! @ SEPE 11-23</small>
     </div>
   `;
 }
