@@ -59,7 +59,10 @@ export async function init() {
 
   const { releaseId, masterId, toFormat, typeOfVersion } = readUrlParams();
 
-  if (!releaseId) return;
+  if (!releaseId) {
+    window.location.replace("./index.html#diggin");
+    return;
+  }
 
   try {
     const data = await fetchRelease(releaseId);
