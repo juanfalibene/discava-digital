@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://juanfalibene.com/discava/sitemap.xml
-LLM: https://juanfalibene.com/discava/llms.txt
+Sitemap: https://dev.juanfalibene.com/discava/sitemap.xml
+LLM: https://dev.juanfalibene.com/discava/llms.txt

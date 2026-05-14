@@ -16,12 +16,12 @@ Discava! is a premium web platform dedicated to vinyl records, specifically focu
 - **Tracking**: Google Tag Manager and GA4 for event measurement.
 
 ## Key Pages
-- [/index.html](https://juanfalibene.com/discava/index.html): Main digging interface.
-- [/about.html](https://juanfalibene.com/discava/about.html): Project information and contact form.
-- [/listen.html](https://juanfalibene.com/discava/listen.html): User's saved favorites and playlist generator.
-- [/single.html](https://juanfalibene.com/discava/single.html): Detailed view for individual records.
+- [/index.html](https://dev.juanfalibene.com/discava/index.html): Main digging interface.
+- [/about.html](https://dev.juanfalibene.com/discava/about.html): Project information and contact form.
+- [/listen.html](https://dev.juanfalibene.com/discava/listen.html): User's saved favorites and playlist generator.
+- [/single.html](https://dev.juanfalibene.com/discava/single.html): Detailed view for individual records.
 
 ## Contact
 - Developed by: Juan Falibene
-- Portfolio: [juanfalibene.com](https://juanfalibene.com)
+- Portfolio: [juanfalibene.com](https://dev.juanfalibene.com)
 - Music: [music.juanfalibene.com](https://music.juanfalibene.com)
